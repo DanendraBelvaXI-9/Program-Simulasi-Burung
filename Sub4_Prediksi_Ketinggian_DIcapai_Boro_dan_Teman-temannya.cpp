@@ -49,7 +49,7 @@ int main()
         }
         else
         {
-            cout << "Status Burung" << i << " : " << status << endl;
+            cout << "Status Burung " << i << " : " << status << endl;
             cout << "Ketinggian : " << hasil[i] << endl;
         }
     }

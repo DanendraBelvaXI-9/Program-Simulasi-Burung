@@ -15,18 +15,16 @@ int main()
     cout << endl;
     cout << "Masukkan tinggi pohon burung : ";
     cin >> t;
-    cout << endl;
+    cout << endl; 
     float sinA = sin(s * 22 / 7 / 180);
     float hasil = ((pow(v, 2)) * (pow(sinA, 2))) / 20;
     if (t <= hasil)
     {
         status++;
-        cout << "Status : " << status << endl
-             << "Ketinggian : " << hasil;
+        cout << "Status : " << status << endl  << "Ketinggian : " << fixed << setprecision(2) << hasil;
     }
     else
     {
-        cout << "Status : " << status << endl
-             << "Ketinggian : " << hasil;
+        cout << "Status : " << status << endl  << "Ketinggian : " << fixed << setprecision(2) << hasil;
     }
 }

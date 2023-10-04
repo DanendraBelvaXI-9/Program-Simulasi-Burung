@@ -15,7 +15,7 @@ int main() {
     int luas;
     int alas;
     int tinggi;
-    cout<<"Masukkan Alas Segitiga : \nv  ";
+    cout<<"Masukkan Alas Segitiga : \n  ";
     cin >> alas;
     cout<<"Masukkan Tinggi Segitiga : \n";
     cin >> tinggi;

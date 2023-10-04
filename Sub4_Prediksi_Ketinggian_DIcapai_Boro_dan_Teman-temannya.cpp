@@ -45,12 +45,12 @@ int main()
         {
             status++;
             cout << "Status Burung " << i << " : " << status << endl;
-            cout << "Ketinggian : " << hasil[i] << endl;
+            cout << "Ketinggian : " << fixed << setprecision(2) << hasil[i] << endl;
         }
         else
         {
             cout << "Status Burung " << i << " : " << status << endl;
-            cout << "Ketinggian : " << hasil[i] << endl;
+            cout << "Ketinggian : " << fixed << setprecision (2) << hasil[i] << endl;
         }
     }
 }

@@ -12,14 +12,14 @@ int toInt (string);
 double toDouble (string);
 
 int main() {
-    int luas;
-    int alas;
-    int tinggi;
+    float luas;
+    float alas;
+    float tinggi;
     cout<<"Masukkan Alas Segitiga : \n";
     cin >> alas;
     cout<<"Masukkan Tinggi Segitiga : \n";
     cin >> tinggi;
-    luas = (int) (alas * tinggi * 0.5);
+    luas = (float) (alas * tinggi * 0.5);
     cout << "Luas segitiga adalah : " << luas << endl;
     return 0;
 }

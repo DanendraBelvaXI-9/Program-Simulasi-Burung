@@ -14,5 +14,5 @@ int main()
     cout << endl;
     float sinA = sin(s * 22 / 7 / 180);
     waktu = (2 * (v * sinA)) / 10;
-    cout << "Waktu yang diperlukan adalah : " << waktu;
+    cout << "Waktu yang diperlukan adalah : " << fixed << setprecision(3) <<waktu;
 }
